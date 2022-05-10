@@ -32,7 +32,33 @@
  .exercice-absolute-transform .block-black {
   transform: translate(50%);
  }
-
 /* 5. ABSOLUTE & TRANSFORM II */
+.exercice-absolute-transform-2 .block-black {
+  position: absolute;
+  right: 0;
+  left: 35%;
+ }
+ 
+ .exercice-absolute-transform-2 .block-blue {
+   position: absolute;
+   right: 0;
+   top: 0;
+  }
 
+  .exercice-absolute-transform-2 .block-red {
+    transform: translateY(150%);
+  }
+ 
+  .exercice-absolute-transform-2 .block-blue {
+   position: absolute;
+   right: 0;
+   top: 0;
+   transform: translateY(150%);
+  }
+ 
+  .exercice-absolute-transform-2 .block-black {
+   transform: translate(50%, 150%);
+  }
+
+  
 /* 6. ALL-IN */
